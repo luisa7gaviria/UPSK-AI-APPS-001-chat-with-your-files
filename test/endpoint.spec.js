@@ -5,7 +5,7 @@ describe('Valida el archivo JSON del flow', () => {
     expect(
       flow.nodes.some((node) => node.data.type.includes('TextSplitter'))
     ).toBe(true);
-  });
+  }); 
 
   test('Debe hacer uso de Embeddings', () => {
     expect(
